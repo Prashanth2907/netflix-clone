@@ -571,6 +571,26 @@ a {
   min-height: 100vh;
   background: #141414;
   color: white;
+
+  /* Reduced spacing above the Favorites heading */
+  padding: 65px 40px 40px;
+}
+
+.favorites-page h1 {
+  position: relative;
+  display: block;
+
+  margin: 0 0 22px;
+  padding: 0;
+
+  color: white;
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.favorites-page .movies-row {
+  margin-top: 8px;
 }
 
 .empty-favorites {
@@ -751,6 +771,16 @@ a {
     margin-top: 35px;
     padding: 25px;
   }
+
+  /* Smaller gap on mobile Favorites page */
+  .favorites-page {
+    padding: 60px 20px 30px;
+  }
+
+  .favorites-page h1 {
+    font-size: 1.7rem;
+    margin-bottom: 18px;
+  }
 }
 
 /* =================================
@@ -811,5 +841,15 @@ a {
   .landing-get-started {
     padding: 8px;
     font-size: 12px;
+  }
+
+  /* Compact spacing on small phones */
+  .favorites-page {
+    padding: 55px 15px 25px;
+  }
+
+  .favorites-page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
   }
 }
